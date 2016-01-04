@@ -1,0 +1,19 @@
+{
+  "name": "openssl-verify",
+  "version": "0.1.0",
+  "description": "OpenSSL wrapper to validate X.509 certificates",
+  "author": "Pablo Sotres <psotres@tlmat.unican.es>",
+  "license": "MIT",
+  "keywords": [
+    "openssl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:psotres/openssl-verify.git"
+  },
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
