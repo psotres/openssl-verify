@@ -22,11 +22,12 @@ openssl.verifyCertificate(certificate, 'resources/cafolder', function(result) {
 API
 ---
 
-#### verifyCertificate(cert, caDir, cb)
+#### verifyCertificate(cert, caDir, caFile, cb)
 Checks the validity of a provided certificate, and wheter or not it is trusted by any CA present in caDir.
 
 * __cert__: String contents of the certificate (PEM encoded)
 * __caDir__: String folder with trusted CA's
+* __caFile__: String file of trusted CA's
 * __cb__: `Function` in the form of `function(err, result)` where `result` is an object containing boolean flags
   `validCert`, `verifiedCA` and `expired`; as well as `output` containing the raw output from OpenSSL.
   Those flags are evaluated in order, so if one of them is false the rest won't be included (they would be meaningless)
