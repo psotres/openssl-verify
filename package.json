@@ -1,6 +1,6 @@
 {
   "name": "openssl-verify",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "OpenSSL wrapper to validate X.509 certificates",
   "author": "Pablo Sotres <psotres@tlmat.unican.es>",
   "license": "MIT",
