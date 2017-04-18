@@ -6,7 +6,7 @@ A wrapper around [OpenSSL](http://www.openssl.org/) commands to allow certificat
 Usage
 -----
 
-Install with npm: `npm install ssl-utils --save`
+Install with npm: `npm install openssl-verify --save`
 
 ```js
 var openssl = require('openssl-verify');
